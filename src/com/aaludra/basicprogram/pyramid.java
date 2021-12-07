@@ -9,7 +9,7 @@ public class pyramid {
 		System.out.println("Enter the value to be printed");
 		int a=sc.nextInt();
 		
-		for(int i=0;i<=a;i++)
+		for(int i=1;i<=a;i++)
 		{
 		for(int j=0;j<i;j++)
 		{
