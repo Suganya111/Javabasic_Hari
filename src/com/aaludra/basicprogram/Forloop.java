@@ -11,7 +11,7 @@ public class Forloop {
 		
 		for(int i=0; i< text.length() ;i++) {
 			System.out.println(text.charAt(i));
-			
+			sc.close();			
 			
 		}
 	}
