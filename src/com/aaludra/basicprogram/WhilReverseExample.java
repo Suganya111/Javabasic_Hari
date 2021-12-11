@@ -1,6 +1,8 @@
 package com.aaludra.basicprogram;
-
-public class WhilReverse {
+/* give proper class name
+ * 
+ */
+public class WhilReverseExample {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package com.aaludra.basicprogram;
-
-public class Datatypes {
+/* declared meaningful variable name*/
+public class DatatypesExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

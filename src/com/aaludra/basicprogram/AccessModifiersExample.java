@@ -1,9 +1,11 @@
 package com.aaludra.basicprogram;
-
-public class AccessModifiers {
-	public String studentname = "Abc"; /*the publice access modifier give access
+/* give proper class name
+ * 
+ */
+public class AccessModifiersExample {
+	public String studentname = "Abc"; /*the public access modifier give access
 	                                     within and out side of the
-	                                    calss, and within and
+	                                    Class, and within and
 	                                      outside of the package*/
 	                                        
 	private  int studentage= 20;     /*it can be access only within the class and can't be access
