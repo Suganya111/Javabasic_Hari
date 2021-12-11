@@ -1,6 +1,8 @@
 package com.aaludra.basicprogram;
-
-public  class Operators {
+/*System.out.println(" ") or also used \n in the statement at the end 
+ * valid to specify a proper class name
+ */
+public  class OperatorsExample {
 	static void unaryOperators() {
 		int x=10;  
 		int y =20; 
@@ -8,16 +10,16 @@ public  class Operators {
 		boolean d=false;  
 		System.out.println("One's complement operato "+ ~x); 
 		System.out.println("One's complement operato "+ ~y); 
-		System.out.println("");
+		System.out.println("\n");
 		System.out.println("Logical negation operator " + !c); 
 		System.out.println("Logical negation operator" + !d);
-		System.out.println("");
+		System.out.println("\n");
 		System.out.println("Increment operator = " + x++); 
 		System.out.println("Prefix increment operator " + ++x); 
-		System.out.println("");
+		System.out.println("\n");
 		System.out.println("Decrement operator = "+ x--);  
 		System.out.println("Prefix decrement operator" + --x);  
-		System.out.println("");
+		System.out.println("\n");
 	}
 	static void arithmeticOperators() {
 		int a = 5;
@@ -39,7 +41,7 @@ public  class Operators {
 	static void shiftOperator() {
 		System.out.println("Right shift operator =" + (10>>2));
 		System.out.println("Left shift operator =" + (10<<2));
-		System.out.println("");
+		System.out.println("\n");
 	}
 	static void relationalOperator() {
 		int a= 10;
@@ -52,7 +54,7 @@ public  class Operators {
 		System.out.println(a>=c);
 		System.out.println(a==b);
 		System.out.println(a!=c);
-		System.out.println("");
+		System.out.println("\n");
 		
 	}
 	static void logicalOperator() {
@@ -61,7 +63,7 @@ public  class Operators {
 		int c =  3;
 		System.out.println(a>b&& b>c);
 		System.out.println(a<c||b>c);
-		System.out.println("");
+		System.out.println("\n");
 		
 	}
 	static void ternaryOperator() {
@@ -70,7 +72,7 @@ public  class Operators {
 		int c= 15;
 		int min = (a<b)?c-a:a+b;
 		System.out.println(min);
-		System.out.println("");
+		System.out.println("\n");
 		
 		
 	}

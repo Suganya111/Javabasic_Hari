@@ -1,6 +1,9 @@
 package com.aaludra.basicprogram;
-
-public class Swithch {
+/* give a proper class name 
+ * declare correct spelled variable name
+ * 
+ */
+public class SwitchExample {
 
 	public static void main(String[] args) {
 		int day =6;
@@ -27,7 +30,7 @@ public class Swithch {
 			daysString= "Friday";
 		break;
 		case 7: 
-			daysString= "Sturday";
+			daysString= "Saturday";
 		break;
 		default:
 			daysString = "Invalid statement";

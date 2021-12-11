@@ -1,10 +1,11 @@
 package com.aaludra.basicprogram;
-
-public class Singlinheritance extends Forinheritance {
+/* \n use for new line
+ */
+public class Singlinheritance2 extends SingleInheritance1  {
 	int m = 123;
 
 	public static void main(String[] args) {
-		Singlinheritance obj = new Singlinheritance();
+		Singlinheritance2 obj = new Singlinheritance2();
 		obj.does();
 		System.out.println(" ");
 		System.out.println(obj.b + ":  This is char value");

@@ -1,11 +1,13 @@
 package com.aaludra.basicprogram;
-
-public class BaseClass {
+/* declared unused variable
+ * valid to specify proper class name
+ */
+public class SingleInheritance {
 	int a;
 	int b;
-	int i = 90;
+	//int i = 90;
 
-	public BaseClass(int b, int a) {
+	public SingleInheritance(int b, int a) {
 		this.a = a;
 		this.b = b;
 		int c = a * b;

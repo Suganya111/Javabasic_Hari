@@ -1,6 +1,8 @@
 package com.aaludra.basicprogram;
-
-public class Whileloop {
+/* give proper class name
+ * 
+ */
+public class WhileloopExample {
 
 	public static void main(String[] args) {
 		int i= 9;

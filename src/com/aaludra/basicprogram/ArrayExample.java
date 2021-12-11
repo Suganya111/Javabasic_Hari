@@ -1,8 +1,10 @@
 package com.aaludra.basicprogram;
-
+/* get input from user for 2d array 
+ * also and print the output row column 
+ */
 import java.util.Scanner;
 
-public class Arrays1d2d {
+public class ArrayExample {
 	public static void oneD()
 	{
 		int in;
@@ -23,6 +25,7 @@ public class Arrays1d2d {
 	}
 	public static void twoD()
 	{
+		
 	int [][] md= {{1,2},{3,4}};
 	for (int i=0;i<2;i++) {
 		for (int j=0;j<2;j++) {
@@ -38,7 +41,8 @@ public class Arrays1d2d {
 	
 	
 	}
+}
 	
-	}
+	
 
 
