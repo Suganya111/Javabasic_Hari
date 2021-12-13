@@ -1,10 +1,13 @@
 package com.aaludra.basicprogram;
-
+/* to System.out.print to "enter the text" statement to get input from the user
+ * 
+ */
 import java.util.Scanner;
 
-public class Forloop {
+public class ForLoopExample {
 
 	public static void main(String[] args) {
+		System.out.println("Enter the next:");
 		Scanner sc = new Scanner(System.in);
 		String text = sc.nextLine();
 	

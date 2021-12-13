@@ -1,8 +1,11 @@
 package com.aaludra.basicprogram;
 
+/*valid to specify meaningful class name
+ * \n use for new line
+ */
 import java.util.Arrays;
 
-public class PosNegnumber {
+public class PositiveNegativeNumberExample {
 	public static void main(String[] args) {
 		int[] arr = { 4, -3, -4, 7, 13, 9, -2, -4, -5, -7, 1, 6, -22, -44 };
 		System.out.println("Negative");

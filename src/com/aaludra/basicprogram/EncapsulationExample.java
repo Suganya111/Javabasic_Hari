@@ -1,14 +1,19 @@
 package com.aaludra.basicprogram;
+/* create another class for program with 
+ * main function and set the values in  class and 
+ * create object for the main class *
+ * specify valid class name 
+ * variable name is start with smaller case
+ * */  
 
+public class EncapsulationExample {
 
-public class Encap {
-
-	private long Empid;
-	private String Name;
+	private long empid;
+	private String name;
 	private int salary;
 	private String program;
 
-	public Encap(String program) {
+	public EncapsulationExample(String program) {
 		this.program = program;
 	}
 
@@ -17,19 +22,19 @@ public class Encap {
 	}
 
 	public long getEmpid() {
-		return Empid;
+		return empid;
 	}
 
-	public void setEmpid(long empid) {
-		Empid = empid;
+	public void setEmpid(long Empid) {
+		empid = Empid;
 	}
 
 	public String getName() {
-		return Name;
+		return name;
 	}
 
-	public void setName(String name) {
-		Name = name;
+	public void setName(String Name) {
+		name = Name;
 	}
 
 	public int getSalary() {
@@ -41,7 +46,7 @@ public class Encap {
 	}
 
 	public static void main(String[] args) {
-		Encap obj = new Encap("constructor getter");
+		EncapsulationExample obj = new EncapsulationExample("constructor getter");
 		obj.setEmpid(123456l);
 		System.out.println("Enter employe id : " + obj.getEmpid());
 		obj.setName("Hari");

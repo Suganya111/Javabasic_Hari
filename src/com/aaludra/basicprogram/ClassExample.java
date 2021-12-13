@@ -1,8 +1,10 @@
 package com.aaludra.basicprogram;
-
+/* give proper class name
+ * 
+ */
 import java.util.Scanner;
 
-public class Javaclass {
+public class ClassExample {
 	private int a;
 
 	public int getA() {
