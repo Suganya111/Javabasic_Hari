@@ -1,4 +1,5 @@
 package com.aaludra.basicprogram;
+
 /* the value of the local variable obj is not used*
  * its valid to specify proper class name*/
 public class SingleInheritance2 extends SingleInheritance1 {
@@ -10,8 +11,8 @@ public class SingleInheritance2 extends SingleInheritance1 {
 	}
 
 	public static void main(String[] args) {
-		SingleInheritance2 obj = new SingleInheritance2(23, 56);
-		
+		new SingleInheritance2(23, 56);
+
 	}
 
 }
