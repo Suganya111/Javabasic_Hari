@@ -47,7 +47,7 @@ public class EnumProgram {
 
 		EnumProgram t1 = new EnumProgram(Day.valueOf(str));
 		t1.dayIsLike();
-
+System.out.println(t1.toString());
 		sc.close();
 	}
 
