@@ -14,12 +14,4 @@ public class Square extends Shape {
 		return perimeter;
 	}
 
-	public static void main(String[] args) {
-
-		Shape obj2 = new Square();
-		System.out.println(
-				" Area of square is " + obj2.getArea(4) + "\n Perrimeter of square is " + obj2.getPerimeter(9.1));
-
-	}
-
 }

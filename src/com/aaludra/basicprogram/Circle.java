@@ -14,10 +14,4 @@ public class Circle extends Shape {
 		return perimeter;
 	}
 
-	public static void main(String[] args) {
-		Shape obj = new Circle();
-		System.out.println("Area of circle is " + obj.getArea(3.1));
-		System.out.println("Perimeter of circle is " + obj.getPerimeter(1.243));
-
-	}
 }

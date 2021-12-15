@@ -1,9 +1,9 @@
 package com.aaludra.basicprogram;
 
-public interface EmployeeRules {
+public interface InterfaceEmployeeRules {
 
 	public void maintainHours(String a, String b);
 
-	public void bonus();
+	public double bonus(int a);
 
 }
