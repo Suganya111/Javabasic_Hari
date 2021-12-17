@@ -16,6 +16,7 @@ public class IteratorNew {
 		Iterator<Integer> it = number.iterator();
 		while (it.hasNext()) {
 			int i = it.next();
+
 			if (i > 10) {
 				it.remove();
 			}
