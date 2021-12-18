@@ -1,6 +1,6 @@
 package com.aaludra.basicprogram;
 
-public class Polymorphism {
+public class Polymorphism {//without definition
 	class earth {
 		public void mountains(String s) {
 
