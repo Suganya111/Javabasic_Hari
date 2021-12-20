@@ -4,14 +4,12 @@ public class Square extends Shape {
 
 	@Override
 	public double getArea(double d) {
-		double area = d * d;
-		return area;
+		return d * d;
 	}
 
 	@Override
 	public double getPerimeter(double d) {
-		double perimeter = 4 * d;
-		return perimeter;
+		return 4 * d;
 	}
 
 }
