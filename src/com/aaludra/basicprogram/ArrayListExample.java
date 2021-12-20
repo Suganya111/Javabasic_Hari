@@ -4,10 +4,9 @@ import java.util.ArrayList;
 
 public class ArrayListExample {
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 
-		ArrayList arri = new ArrayList();
+		ArrayList<Object> arri = new ArrayList<>();
 
 		arri.add(1);// This method will append the element at the end of the list
 		arri.add(2);
@@ -25,7 +24,7 @@ public class ArrayListExample {
 
 		System.out.println(arri.remove(7) + " \n" + arri);// it will remove the element at the given position
 
-		ArrayList arri2 = new ArrayList();
+		ArrayList<Object> arri2 = new ArrayList<>();
 		arri2.add("Arri2 arraylist");
 		arri2.addAll(arri);// it will add the arri list to arri2
 		arri2.add("New arraylist");

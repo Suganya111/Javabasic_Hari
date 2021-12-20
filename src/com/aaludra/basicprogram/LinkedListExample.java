@@ -4,9 +4,8 @@ import java.util.LinkedList;
 
 public class LinkedListExample {
 
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
-		LinkedList al = new LinkedList();
+		LinkedList<Character> al = new LinkedList<>();
 		al.add('a');
 		al.add('b');
 		al.add('c');
