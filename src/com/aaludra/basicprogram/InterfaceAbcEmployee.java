@@ -1,7 +1,7 @@
 package com.aaludra.basicprogram;
 
 public class InterfaceAbcEmployee implements InterfaceEmployeeRules {
-	static int z = 3;
+	static int z = 3;// unused data types
 	static float x;
 	static float y = x * z;
 
