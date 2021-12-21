@@ -7,7 +7,7 @@ import java.util.Queue;
 public class QueueExample {
 
 	public static void main(String[] args) {
-		Queue<Object> qu = new LinkedList<>();
+		Queue<Integer> qu = new LinkedList<>();
 		qu.add(8);
 		qu.add(2);
 		qu.add(23);

@@ -9,11 +9,11 @@ public class HashsetExample {
 		HashSet<Object> hs = new HashSet<>();
 		hs.add(11);
 		hs.add(34);
-		hs.add(032);
+		hs.add(32);
 		hs.add(37);
 		hs.add(25);
 		hs.add(90);
-		hs.add(90);// it is not allow duplication
+		hs.add(90);// duplication is not allowed in hashset
 
 		System.out.println(hs);
 		System.out.println("\nList contains 90 ? :  " + hs.contains(90));// if the set contains 90 it will give true
@@ -25,6 +25,7 @@ public class HashsetExample {
 			System.out.println(i.next());// it is unordered hashset
 		hs.clear();
 		System.out.println("\nAfter cleared the set  : " + hs.isEmpty());
+
 	}
 
 }
