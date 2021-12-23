@@ -6,12 +6,12 @@ public class HashmapExample {
 
 	public static void main(String[] args) {
 
-		HashMap<Integer, String> hs = new HashMap<>();
+		HashMap<Integer, Object> hs = new HashMap<>();
 		hs.put(22, "hari");
 		hs.put(23, "Vishnu");
 		hs.put(83, "babu");
 		hs.put(93, "Suganya");
-		hs.put(43, "Saranya");
+		hs.put(43, "Abc");
 
 		System.out.println(hs.keySet()); // gives keyset only
 		System.out.println(hs.values()); // gives value only

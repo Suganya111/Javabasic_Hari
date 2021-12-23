@@ -13,7 +13,7 @@ public class LinkedHashMapExample {
 		tm.put(16, "d");
 		tm.put(15, "e");
 		System.out.println(tm);
-		System.out.println("This value of key 10 is : " + tm.get(10));
+		System.out.println("The value of key 10 is : " + tm.get(10));
 		System.out.println(tm.entrySet());
 
 	}
