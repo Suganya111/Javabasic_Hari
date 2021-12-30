@@ -4,7 +4,7 @@ package com.aaludra.basicprogram;
  * create object for the main class *
  * specify valid class name 
  * variable name is start with smaller case
- * */  
+ * */
 
 public class EncapsulationExample {
 
@@ -56,7 +56,6 @@ public class EncapsulationExample {
 		System.out.println(" ");
 
 		System.out.println(obj.getEncap());
-
 
 	}
 

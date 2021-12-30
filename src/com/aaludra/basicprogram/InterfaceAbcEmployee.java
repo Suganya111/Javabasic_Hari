@@ -12,7 +12,7 @@ public class InterfaceAbcEmployee implements InterfaceEmployeeRules {
 
 	@Override
 	public double bonus(int a) {
-		double d = 2.5 * a;
+		double d = z * a;
 		return d;
 
 	}

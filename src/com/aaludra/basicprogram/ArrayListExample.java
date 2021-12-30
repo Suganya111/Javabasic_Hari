@@ -8,7 +8,7 @@ public class ArrayListExample {
 
 		ArrayList<Object> arri = new ArrayList<>();
 
-		arri.add(1);// This method will append the element at the end of the list
+		arri.add(1); // This method will append the element at the end of the list
 		arri.add(2);
 		arri.add(3);
 		arri.add(4);

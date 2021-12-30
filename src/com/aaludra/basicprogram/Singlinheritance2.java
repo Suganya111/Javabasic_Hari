@@ -1,7 +1,8 @@
 package com.aaludra.basicprogram;
+
 /* \n use for new line
  */
-public class Singlinheritance2 extends SingleInheritance1  {
+public class Singlinheritance2 extends SingleInheritance1 {
 	int m = 123;
 
 	public static void main(String[] args) {

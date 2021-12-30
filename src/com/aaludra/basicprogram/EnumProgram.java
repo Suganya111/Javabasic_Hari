@@ -15,8 +15,8 @@ public class EnumProgram {
 	}
 
 	public void dayIsLike() {
-		switch (day) {//use defualt case for Invalid  input
-		
+		switch (day) {// use defualt case for Invalid input
+
 		case MONDAY:
 			System.out.println("First day of the week");
 			break;
@@ -48,9 +48,8 @@ public class EnumProgram {
 
 		EnumProgram t1 = new EnumProgram(Day.valueOf(str));
 		t1.dayIsLike();
-		System.out.println(t1.toString());
+		// System.out.println(t1.toString());
 		sc.close();
 	}
-	
 
 }

@@ -12,7 +12,7 @@ public abstract class Employee {
 		return this.name = x;
 	}
 
-	abstract void computeSalary();//gives in first position
+	abstract void computeSalary();// gives in first position
 
 	int getSalary() {
 		return salary;

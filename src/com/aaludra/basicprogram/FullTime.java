@@ -8,7 +8,7 @@ class FullTime extends Employee {
 	public static void main(String[] args) {
 
 		Employee obj = new FullTime();
-		obj.setName("Zyx A");//use proper input
+		obj.setName("Zyx A");// use proper input
 		String eName1 = obj.getName();
 		obj.computeSalary();
 		int esalary = obj.getSalary();

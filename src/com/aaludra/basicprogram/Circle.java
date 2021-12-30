@@ -1,6 +1,6 @@
 package com.aaludra.basicprogram;
 
-public class Circle extends Shape {//give proper class name like CircleExample
+public class Circle extends Shape {// give proper class name like CircleExample
 
 	@Override
 	public double getArea(double d) {
